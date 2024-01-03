@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    overflow-x: hidden;
+}
+.top-section{
+    display: flex;
+}
+.top-left{
+    height: 500px;
+    min-width:775px;
+    /* background: linear-gradient(to right, #8a8585, #2c2b2b); */
+    /* color: #ffffff; */
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.top-right{
+    height: 500px;
+    min-width:600px;
+    background: linear-gradient(to right, #667eea, #764ba2)
+}
+
+.image_banner{
+    height: 250px;
+    width: 450px;
+    position: absolute;
+    top: 125px;
+    right: 225px;
+};
+
+.custom-row {
+    justify-content: center; /* Center the content horizontally */
+}
+
+.custom-col {
+    text-align: center; /* Center the text inside columns */
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .custom-row {
+        flex-direction: column; /* Stack columns on small screens */
+        align-items: center; /* Center the content vertically */
+    }
+}
+
+.tools-logo{
+    width: 10px;
+    height: 10px;
+}
+
+.programme-outcome-section{
+    background: linear-gradient(to right, #4caf50, #2196F3); 
+}
+.certificate-image{
+    max-height: 30vh;
+    width: min-content;
+}
+.project-section{
+    height: 250px;
+    width:350px;
+}
+.project-section-para1{
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    left: 100px;
+    background: linear-gradient(-30deg, #4e54c8, #8f94fb);
+
+}
+.project-section-para2{
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    left: 481px;
+    background: linear-gradient(-30deg, #4e54c8, #8f94fb);
+
+}
+.project-section-para3{
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    right: 380px;
+    background: linear-gradient(-30deg, #4e54c8, #8f94fb);
+
+}
+.programme-advisor-image1{
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+    border-radius: 50%;
+    position:absolute;
+    top: 160px;
+    left: 150px;
+}
+.programme-advisor-image2{
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+    border-radius: 50%;
+    position:absolute;
+    top: 160px;
+    right: 525px;
+}
+
+.logo1{
+    height: 40px;
+    width: 40px;
+}
+.logo2{
+    height: 32px;
+    width: 32px;
+    padding-top: 7px;
+}
+
+.frequently-asked-section{
+    /* background: linear-gradient(to right, #3498db, #2ecc71);
+    color: white; */
+    background-color: rgb(241, 236, 236);
+    color: rgb(22, 19, 19);
+}
+
+.design-highlight-section{
+    /* background: linear-gradient(to right, #3498db, #2ecc71); */
+    background-color: rgb(241, 236, 236);
+    color: rgb(22, 19, 19);
+}
+
+
